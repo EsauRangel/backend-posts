@@ -87,40 +87,8 @@ const store = async (req, res = express.request) => {
 
 
 module.exports = { show, store }
-// CREATE PROCEDURE GuardarUsuario
-//     @title NVARCHAR(50),
-//     @author NVARCHAR(50),
-//     @content NVARCHAR(150),
-//     @createdAt DATETIME,
-//     @NuevoId INT OUTPUT  
-// AS
-// BEGIN
-//     SET NOCOUNT ON;
-
-//     INSERT INTO Post (title, author, content, createdAt)
-//     VALUES (@title, @author, @content, @createdAt);
-
-//     SET @NuevoId = SCOPE_IDENTITY();
-
-//     SELECT * FROM Post WHERE Id = @NuevoId;
-// END;
 
 
 
-// CREATE PROCEDURE BuscarPosts
-//     @q NVARCHAR(100)
-// AS
-// BEGIN
-//     SELECT *
-//     FROM Post
-//     WHERE author LIKE '%' + @q + '%'
-//        OR title LIKE '%' + @q + '%'
-//        OR content LIKE '%' + @q + '%';
-// END;
 
-// CREATE PROCEDURE GetAllPosts
-// AS
-// BEGIN
-//     SELECT *
-//     FROM Post;
-// END;
+
