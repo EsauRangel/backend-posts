@@ -7,7 +7,6 @@ class Server {
     constructor() {
         this.app  = express();
         this.port = process.env.PORT;
-
         this.postPath = '/api/v1/posts';
 
         // Middlewares

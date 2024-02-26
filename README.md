@@ -6,9 +6,18 @@ características propias de un Blog de Internet.
 
 ## Instalacion 
 Clonar el repositorio 
+
 git clone git@github.com:EsauRangel/backend-posts.git
+
+Crear el  de archivo .env
+configurar la variable PORT=1212
+Crear los procedimientos almacenados que se meustran abajo
 Ejecutar npm install dentro del repositorio
+
 [NPM](http://https://docs.npmjs.com/ "NPM")
+
+
+
 ### Alta de entradas
 POST /api/v1/posts
 
